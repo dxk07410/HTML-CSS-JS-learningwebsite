@@ -1,0 +1,6 @@
+<h1>Rules</h1>
+<h3>Welcome To The Memory Game</h3>
+<p>The game has 12 cards consisting of 6 pairs. You have to click on two cards in a row.<br>Clicking on two similar cards will result in a match.<br> An unsuccessfull match will result in both the cards turning back.</p>
+
+<h3>Remember</h3>
+<p>Please do not click on the same card twice. That is not the purpose of the game!!</p>

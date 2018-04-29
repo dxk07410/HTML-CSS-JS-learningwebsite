@@ -1,0 +1,217 @@
+
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	background-size: 100%;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited { color: #621c03; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #621c03; text-decoration: none; font-weight: bold; }
+
+.error {
+	font-size: 15px;
+	font-weight: bold;
+	color:red;
+	height: 22px;
+	padding-top: 3px;
+	padding-left: 5px;
+}
+
+h1 {
+	font-size: 18px;
+	color: #782609;
+	font-weight: bold;
+	background: url(images/h1_bg.jpg) no-repeat;
+	height: 27px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	height: 22px;
+	padding-top: 3px;
+	padding-left: 5px;
+	background: url(images/h2_bg.jpg) no-repeat;
+}
+h3 {
+	font-size: 15px;
+	font-weight: bold;
+	/* color: #fff; */
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	/* background: url(images/h2_bg.jpg) ; */
+	width: 100%;
+}
+
+#maincontainer{
+	width: 100%; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+	float: left;
+	
+}
+
+#header{
+	background: url(images/header.jpg);
+	height: 283px; /*Height of top section*/
+	width: 100%
+}
+
+
+#left_section {
+	float: left;
+	width: 20%;
+}
+
+#right_section {
+	float: right;
+	width: 75%;
+	margin-right: 5%;
+	
+}
+.load_subcontent {
+	float: left;
+	padding: 10px 10px 0px 40px;
+	width: 20%;
+	border-right: dotted 1px #782609;
+}
+.load_images {
+	float: right;
+	padding: 0px 30px 0px 0px;
+	width: 70%;
+	
+}
+
+
+#footer{
+	float: left;
+	width: 100%;
+	padding-top: 16px;
+	height: 31px;
+	color: #fff;
+	text-align: center;
+	background: url(images/footer_bg.jpg) repeat-x;
+}
+#footer a {
+	color: #fff;
+	font-weight: bold;
+}
+.menu {
+	width: 100%;
+}
+.menu li{
+	list-style: none;
+	height: 30px;
+	display: block;
+	background: url(images/menu_bg.jpg) no-repeat;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 7px;
+	margin-top: 0.5%;
+	
+}
+.forum_menu li{
+	list-style: none;
+	height: 35px;
+	display: block;
+	background: url(images/menu_bg.jpg) no-repeat;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 7px;
+	margin-top: 1%;
+}
+.menu a , .forum_menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu a:hover , .forum_menu a:hover{
+	color: #f08661;
+}
+
+.inner_content{
+	margin-right: 5%; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+	/* border-bottom: dotted 1px #782609; */
+	
+	
+}
+
+.button {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	background: url(images/h2_bg.jpg);
+	border: 1px solid #89d6d2;
+	padding: 1%;
+}
+
+textarea{
+	width :500px ;
+	height : 150px;
+}
+
+td , th{		
+	
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	padding-left: 10px;
+}
+
+#myTable{
+	width: 100%;
+	text-align: left;
+}
+#myTable thead tr{
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	height: 32px;
+	padding-top: 3px;
+	padding-left: 5px;
+	background: url(images/h2_bg.jpg);
+}
+.odd {
+	background: url(images/h1_bg.jpg);
+}
+.selected{
+	background: url(images/h2_bg.jpg);
+	cursor: pointer;
+}
+.firstColumn{
+	width: 70%;
+	padding:10px;
+}
+.secondColumn{
+	width: 30%;
+	padding:10px;
+}
+.frstColumn{
+	width: 50%;
+	padding:10px;
+}
+.thirdColumn{
+	width: 20%;
+	padding:10px;
+}
+.scndColumn,{
+	width: 15%;
+	padding:10px;
+	text-align: center;
+}
+.forthColumn{
+	width: 15%;
+	padding:10px;
+	text-align: center;
+}
+.forthColumn .button:hover{
+	color: #f08661;	
+}	

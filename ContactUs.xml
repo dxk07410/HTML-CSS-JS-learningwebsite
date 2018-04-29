@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contact-us>
+	<developer>
+		<pic>0</pic>
+		<name>Sidharth</name>
+		<email>sxv39750@ucmo.edu</email>
+	</developer>
+	<developer>
+		<pic>1</pic>
+		<name>Deeksha</name>
+		<email>dxk07410@ucmo.edu</email>
+	</developer>
+	<developer>
+		<pic>2</pic>
+		<name>Sridhar</name>
+		<email>sxk34490@ucmo.edu</email>
+	</developer>
+</contact-us>

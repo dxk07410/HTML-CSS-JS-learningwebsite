@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--created by Deeksha Khadsare. Student# 700660741 -->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Discussion Forum</title>
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/answer.js"></script>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div id="maincontainer">
+    <div id="header">
+    </div>
+    <div id="left_section" style="margin-top:1.2%">
+
+      <div class="forum_menu">
+        <ul>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="Material.html">Material</a>
+          </li>
+          <li>
+            <a href="Videos.html">Videos</a>
+          </li>
+          <li>
+            <a href="game.html">Play Games</a>
+          </li>
+          <li>
+            <a href="forum.html">Forum</a>
+          </li>
+          <li>
+            <a href="about_us.html">About us</a>
+          </li>
+          <li>
+            <a href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div id="right_section">
+      <div class="inner_content">
+        <h1 style="height: 50px;"> Discussion Forum</h1>
+        <p>This forum is to discuss web techologies such as HTML, CSS and Javascript. Irrelevent posts will be deleted.</p>
+        <p>
+          <div id="load_subcontent">
+            <div style="margin-bottom:3%;">
+              <h3>Q.
+                <span id="spanQuestion"></span>
+                <button style="float: right" class="button" onclick="location.href='forum.html'">BACK</button>
+              </h3>
+            </div>
+            <p id="myFavPara"></p>
+            <div id="answerId" title="Post Answer">
+              <div class="error">
+                <span id="errorId"></span>
+              </div>
+              <div>
+                <h2>Enter your Answer</h2>
+              </div>
+              <div>
+                <textarea name="answer" id="answerTextareaId"  style="width: 80%" title="Enter Answer">
+                </textarea>
+              </div>
+
+            </div>
+            <button style="margin-top:1% " class="button" id="post-answer">POST ANSWER</button>
+
+
+        </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <div id="footer">Copyright ©
+
+  </div>
+
+</body>
+
+</html>
